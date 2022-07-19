@@ -82,7 +82,7 @@ Kx_tf = tf.Variable(tf.compat.v1.truncated_normal((6, 9), mean=0.0,stddev=1.0,dt
 
 training_iterations = 20000
 batchsize = 800;
-max_epochs = 300
+max_epochs = 5000
 
 num_states = 6
 LR_slope = 12
